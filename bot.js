@@ -217,7 +217,7 @@ return;
 client.on('message', message => {
   if (true) {
 if (message.content === '*invite') {
-      message.author.send('  رابط البوت  |  تفضل ربط البوت     ').catch(e => console.log(e.stack));
+      message.author.send('   https://discordapp.com/api/oauth2/authorize?client_id=518365011576356874&permissions=8&scope=bot  |  تفضل ربط البوت     ').catch(e => console.log(e.stack));
  
     }
    }
@@ -236,7 +236,7 @@ client.on('message', message => {
  client.on('message' , message => {
 if (message.content === '*help') {
               var embed  = new Discord.RichEmbed()
-      .addField("**bc1** :stopwatch:","**ارسال برودكاست عادي مثل رسالة**")
+      .addField("***bc1** :stopwatch:","**ارسال برودكاست عادي مثل رسالة**")
 
       .addField("***bc2** :chart_with_downwards_trend:","**ارسال برودكاست برياكشن**")
 
