@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '.'
+const prefix = '*'
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -246,7 +246,7 @@ if (message.content === '*help') {
 
       .addField("***bc5 :recycle:","ارسال برودكاست للكل بامبد**")
 
-      .addField("***inv :medal: ","لـــدعوة البوت الى سيرفرك **")
+      .addField("***invite :medal: ","لـــدعوة البوت الى سيرفرك **")
 
       .addField("***help :arrows_counterclockwise:","لعرض هذه القائمة**")
                 
