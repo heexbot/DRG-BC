@@ -236,19 +236,19 @@ client.on('message', message => {
  client.on('message' , message => {
 if (message.content === '*help') {
               var embed  = new Discord.RichEmbed()
-      .addField("***bc1 :stopwatch:","**ارسال برودكاست عادي مثل رسالة")
+      .addField("**bc1** :stopwatch:","**ارسال برودكاست عادي مثل رسالة**")
 
-      .addField("***bc2 :chart_with_downwards_trend:","**ارسال برودكاست برياكشن")
+      .addField("***bc2** :chart_with_downwards_trend:","**ارسال برودكاست برياكشن**")
 
-      .addField("***bc3 :camping:","**ارسال برودكاست للكل مع منشن بدون امباد")
+      .addField("***bc3** :camping:","**ارسال برودكاست للكل مع منشن بدون امباد**")
 
-      .addField("***bc4 :1234:","**ارسال برودكاست للاونلاين مع منشن بدون امبد")
+      .addField("***bc4** :1234:","**ارسال برودكاست للاونلاين مع منشن بدون امبد**")
 
-      .addField("***bc5 :recycle:","ارسال برودكاست للكل بامبد**")
+      .addField("***bc5** :recycle:","**ارسال برودكاست للكل بامبد**")
 
-      .addField("***invite :medal: ","لـــدعوة البوت الى سيرفرك **")
+      .addField("***invite** :medal: ","**لـــدعوة البوت الى سيرفرك **")
 
-      .addField("***help :arrows_counterclockwise:","لعرض هذه القائمة**")
+      .addField("***help** :arrows_counterclockwise:","**لعرض هذه القائمة**")
                 
                 .setColor('RANDOM')
 .setColor('RANDOM')
