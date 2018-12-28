@@ -233,23 +233,24 @@ client.on('message', message => {
      
      
      
-  message.channel.sendEmbed(embed);
-    }
-});
-
+  client.on('message' , message => {
 if (message.content === '*help') {
-         let embed = new Discord.RichEmbed()
-.setThumbnail(message.author.avatarURL)    
-      .addField("**:globe_with_meridians: الأوامر العامه**","** **")
-      .addField("***bc1 :stopwatch:**","**ارسال برودكاست عادي مثل رسالة**")
-      .addField("***bc2 :chart_with_downwards_trend:**","**ارسال برودكاست برياكشن**")
-      .addField("***bc3 :camping:**","**ارسال برودكاست للكل مع منشن  بدون امباد**")
-      .addField("***bc4 :1234:**","**ارسال برودكاست للاونلاين مع منشن بدون امبد**")
-      .addField("***bc5 :recycle:**","**ارسال برودكاست للكل بامبد**")
-      .addField("***inv :medal: **","**لـــدعوة البوت الى سيرفرك **")
-      .addField("***help :arrows_counterclockwise:**","**لعرض هذه القائمة**")
+              var embed  = new Discord.RichEmbed()
+      .addField("bc1 :stopwatch:","ارسال برودكاست عادي مثل رسالة")
 
+      .addField("***bc2 :chart_with_downwards_trend:","ارسال برودكاست برياكشن**")
 
+      .addField("***bc3 :camping:","ارسال برودكاست للكل مع منشن بدون امباد**")
+
+      .addField("***bc4 :1234:","ارسال برودكاست للاونلاين مع منشن بدون امبد**")
+
+      .addField("***bc5 :recycle:","ارسال برودكاست للكل بامبد**")
+
+      .addField("***inv :medal: ","لـــدعوة البوت الى سيرفرك **")
+
+      .addField("***help :arrows_counterclockwise:","لعرض هذه القائمة**")
+                
+                .setColor('RANDOM')
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
     }
