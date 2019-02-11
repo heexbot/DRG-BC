@@ -63,7 +63,7 @@ client.on('message', message => {
     });
 	
 	
-	const developers = ["443528755525451776"'323888904602124299'];
+	const developers = ["443528755525451776",'323888904602124299'];
 
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -106,3 +106,4 @@ if (message.content.startsWith(prefix + 'av')) {
 
 
 
+client.login(process.env.BOT_TOKEN);
