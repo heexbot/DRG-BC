@@ -65,25 +65,7 @@ client.on('message', message => {
 
 
 
-       Discord.RichEmbed()
-       .setColor('RANDOM')
-       .setTitle('Broadcast')
-       .addField('Server', message.guild.name)
-       .addField('Sender', message.author.username)
-       .addField('Message', args)
-       .setThumbnail('message.author.avatarURL')
-       .setFooter('client.user.avatarURL');
-    m.send({ embed: bc })
-    msg.delete();
-    })
-    })
-    reaction2.on("collect", r => {
-    message.channel.send(`**Broadcast Canceled.**`).then(m => m.delete(5000));
-    msg.delete();
-    })
-    })
-    }
-    });
+    
 	
 	
 	const developers = ["443528755525451776",'323888904602124299'];
