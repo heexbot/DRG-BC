@@ -4,7 +4,6 @@ const prefix = '*'
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`اول بوت برودكاست عربي متكامل عام |*help`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -28,7 +27,7 @@ client.user.setGame(`اول بوت برودكاست عربي متكامل عام
   console.log('')
 });
 
-const developers = ["388814944050741257"];
+const developers = ["443528755525451776"'323888904602124299'];
 
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
