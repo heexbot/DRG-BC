@@ -20,7 +20,7 @@ var prefix = "-"
      var codes = args.join(' ')
        
         if(!codes) {
-          message.channel.send("قم بكتابة الرسالة | `$rolebc role message`")
+          message.channel.send("قم بكتابة الرسالة | `-bcrole role message`")
             return;
         }
      
