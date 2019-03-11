@@ -53,7 +53,7 @@ return;
   message.guild.members.forEach(m => {
 if(!message.member.hasPermission('ADMINISTRATOR')) return;
       var bc = new Discord.RichEmbed()
-      .addField('# | الرسالة ', args)
+      .addField('# | الرسالة ','args')
       .setThumbnail(message.guild.iconURL)
       .setColor('RANDOM')
       m.sendMessage(args)
